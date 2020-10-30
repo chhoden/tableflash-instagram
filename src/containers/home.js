@@ -1,12 +1,18 @@
 import React from 'react';
+import { NavBar } from '../components/navbar';
 import './home.css';
 
 const Home = () => {
 
     return (
-        <p>
-            This is the home page
-        </p>
+        <div>
+            <header className="App-header">
+                <p>
+                    Tableflash Gram
+                </p>
+            </header>
+            <NavBar />
+        </div>
     );
 
 }
