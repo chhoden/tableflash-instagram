@@ -1,0 +1,16 @@
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+
+.link{
+    color: black;
+}
+
+.icon:hover{
+    color: gray;
+}
+
+/* .icon:active{
+    color: green;
+} */
