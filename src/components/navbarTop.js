@@ -5,7 +5,7 @@ import './navbarTop.css';
 const NavBarTop = () => {
     return (
         <Navbar fixed="top" bg="light" variant="light">
-            <Navbar.Brand className="brand" href="#home">
+            <Navbar.Brand className="brand" href="/home" >
                 Tableflash Gram
              </Navbar.Brand>
         </Navbar>
