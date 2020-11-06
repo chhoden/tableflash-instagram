@@ -6,9 +6,9 @@ const SearchBar = () => {
     return (
         <div>
             <NavBarTop />
-            <p>
+            <h5 style={{ marginTop: '6%' }}>
                 Lets search for stuffs from here!
-            </p>
+            </h5>
             <NavBar />
         </div>
     );

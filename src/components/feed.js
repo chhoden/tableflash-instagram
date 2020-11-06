@@ -6,9 +6,9 @@ const Feed = () => {
     return (
         <div>
             <NavBarTop />
-            <p>
+            <h5 style={{ marginTop: '6%' }}>
                 Keep track of your feeds here.
-            </p>
+            </h5>
             <NavBar />
         </div>
     );

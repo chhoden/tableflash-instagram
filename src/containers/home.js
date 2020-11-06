@@ -8,13 +8,13 @@ import './home.css';
 
 const Home = () => {
     return (
-        <Container fluid>
+        <Container className="mt-5">
             <NavBarTop />
-            <Row>
+            <Row className="mb-4" style={{ marginTop: '2%' }}>
                 {
                     photos.map((photo) =>
-                        <Col xs={12} md={4} height={10}>
-                            <Image alt={photo.name} src={photo.src} fluid />
+                        <Col md="4">
+                            <Image alt={photo.name} src={photo.src} className="img-fluid" style={{ height: 'auto' }} />
                         </Col>
                     )
                 }
